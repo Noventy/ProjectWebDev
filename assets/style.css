@@ -1,0 +1,161 @@
+*
+{
+	background-color: #E1F3FF;
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container .logo
+{
+	position: relative;
+	width: 300px;
+	background: none;
+
+	margin: 2% auto 3%;
+}
+
+.container .container2 .box1
+{
+	position: static;
+	width: 440px;
+	height: 22px;
+
+	background: #94C5FF;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px 9px 0px 0px;
+}
+
+.container .container2 .box2
+{
+	position: static;
+	width: 440px;
+	height: 445px;
+	display: flex;
+	flex-direction: column;
+
+	background: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 9px 9px;
+}
+
+h1, p, .inputID, .inputPassword, .boutonSuivant, .boutonRetour
+{
+	background: none;
+}
+
+h1
+{
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+
+	color: #2E6D92;
+}
+
+p
+{
+	height: 25px;
+
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 1em;
+
+	color: #002A6A;
+}
+
+.identifiant
+{	
+	margin-left: 3em;
+}
+
+.Password
+{
+	margin-left: 3em;
+	margin-top: 40px;
+}
+
+.inputID, .inputPassword
+{
+	width: 20em;
+
+	font-family: 'Poppins';
+	font-style: italic;
+	font-weight: 300;
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+
+	border-width: 0.2em;
+   	border-bottom-color: #94C5FF;
+
+   	margin: 0 auto 0;
+}
+
+.inputID:focus, .inputPassword:focus
+{
+	font-style: normal;
+	color: darkblue;
+	font-weight: 500;
+
+	border-bottom-color: #006A97;
+
+	outline: none;
+}
+
+.boutonSuivant
+{
+	display: static;
+	text-align: center;
+
+	height: 7%;
+	width: 22%;
+
+
+	text-decoration: none;
+    font-family: Poppins;
+   	font-size: 1.2em;
+
+
+	border:none;
+	border-radius: 1em;
+
+	background-color: #4285f4;
+    color: white;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64,   248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+
+
+    cursor: pointer;
+
+	margin: 40px auto 0;
+}
+
+.boutonRetour
+{
+	position: static;
+	width: 156px;
+	height: 23px;
+
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #2E6D92;
+
+	margin: 10 auto auto auto;
+}
+
