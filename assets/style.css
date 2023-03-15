@@ -117,12 +117,12 @@
 	padding-left: 10%;
 }
 
-.inputID:focus, .inputPassword:focus
+input:focus
 {
 	padding-left: 4%;
 }
 
-.inputID:not(:placeholder-shown), .inputPassword:not(:placeholder-shown)
+input:not(:placeholder-shown)
 {
 	padding-left: 4%;
 }
